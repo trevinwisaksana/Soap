@@ -15,6 +15,13 @@
 		DD41AA1B242B53F800BDE797 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41AA1A242B53F800BDE797 /* NotificationController.swift */; };
 		DD41AA1D242B53F800BDE797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD41AA1C242B53F800BDE797 /* Assets.xcassets */; };
 		DD41AA22242B53F800BDE797 /* Soap WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DD41AA05242B53F600BDE797 /* Soap WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD41AA2C242B5C5500BDE797 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41AA2B242B5C5500BDE797 /* HomeView.swift */; };
+		DD41AA2F242B5C6000BDE797 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD41AA2E242B5C6000BDE797 /* HomeView.xib */; };
+		DD41AA31242B5CDC00BDE797 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41AA30242B5CDC00BDE797 /* HeaderTableViewCell.swift */; };
+		DD41AA35242B5CEA00BDE797 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD41AA34242B5CEA00BDE797 /* HeaderTableViewCell.xib */; };
+		DD41AA39242B60F700BDE797 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41AA38242B60F700BDE797 /* XibView.swift */; };
+		DD41AA3C242B628A00BDE797 /* CounterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41AA3B242B628A00BDE797 /* CounterTableViewCell.swift */; };
+		DD41AA3F242B629600BDE797 /* CounterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD41AA3E242B629600BDE797 /* CounterTableViewCell.xib */; };
 		DD542A7F242A2A70005E562E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD542A7E242A2A70005E562E /* AppDelegate.swift */; };
 		DD542A81242A2A70005E562E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD542A80242A2A70005E562E /* SceneDelegate.swift */; };
 		DD542A83242A2A70005E562E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD542A82242A2A70005E562E /* ViewController.swift */; };
@@ -77,6 +84,13 @@
 		DD41AA1C242B53F800BDE797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD41AA1E242B53F800BDE797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD41AA1F242B53F800BDE797 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DD41AA2B242B5C5500BDE797 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DD41AA2E242B5C6000BDE797 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		DD41AA30242B5CDC00BDE797 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		DD41AA34242B5CEA00BDE797 /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
+		DD41AA38242B60F700BDE797 /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
+		DD41AA3B242B628A00BDE797 /* CounterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterTableViewCell.swift; sourceTree = "<group>"; };
+		DD41AA3E242B629600BDE797 /* CounterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CounterTableViewCell.xib; sourceTree = "<group>"; };
 		DD542A7B242A2A70005E562E /* Soap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD542A7E242A2A70005E562E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD542A80242A2A70005E562E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +142,67 @@
 			path = "Soap WatchKit App Extension";
 			sourceTree = "<group>";
 		};
+		DD41AA2D242B5C5A00BDE797 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD41AA2B242B5C5500BDE797 /* HomeView.swift */,
+				DD41AA2E242B5C6000BDE797 /* HomeView.xib */,
+				DD41AA32242B5CDE00BDE797 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD41AA32242B5CDE00BDE797 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DD41AA33242B5CE300BDE797 /* Header */,
+				DD41AA3D242B628D00BDE797 /* Counter */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DD41AA33242B5CE300BDE797 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				DD41AA30242B5CDC00BDE797 /* HeaderTableViewCell.swift */,
+				DD41AA34242B5CEA00BDE797 /* HeaderTableViewCell.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		DD41AA36242B5FA000BDE797 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD542A82242A2A70005E562E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD41AA37242B5FA700BDE797 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DD542A84242A2A70005E562E /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DD41AA3A242B60FD00BDE797 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DD41AA38242B60F700BDE797 /* XibView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DD41AA3D242B628D00BDE797 /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				DD41AA3B242B628A00BDE797 /* CounterTableViewCell.swift */,
+				DD41AA3E242B629600BDE797 /* CounterTableViewCell.xib */,
+			);
+			path = Counter;
+			sourceTree = "<group>";
+		};
 		DD542A72242A2A70005E562E = {
 			isa = PBXGroup;
 			children = (
@@ -153,8 +228,10 @@
 			children = (
 				DD542A7E242A2A70005E562E /* AppDelegate.swift */,
 				DD542A80242A2A70005E562E /* SceneDelegate.swift */,
-				DD542A82242A2A70005E562E /* ViewController.swift */,
-				DD542A84242A2A70005E562E /* Main.storyboard */,
+				DD41AA36242B5FA000BDE797 /* Controller */,
+				DD41AA2D242B5C5A00BDE797 /* View */,
+				DD41AA37242B5FA700BDE797 /* Storyboard */,
+				DD41AA3A242B60FD00BDE797 /* Helper */,
 				DD542A87242A2A71005E562E /* Assets.xcassets */,
 				DD542A89242A2A71005E562E /* LaunchScreen.storyboard */,
 				DD542A8C242A2A71005E562E /* Info.plist */,
@@ -282,7 +359,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD542A8B242A2A71005E562E /* LaunchScreen.storyboard in Resources */,
+				DD41AA2F242B5C6000BDE797 /* HomeView.xib in Resources */,
 				DD542A88242A2A71005E562E /* Assets.xcassets in Resources */,
+				DD41AA35242B5CEA00BDE797 /* HeaderTableViewCell.xib in Resources */,
+				DD41AA3F242B629600BDE797 /* CounterTableViewCell.xib in Resources */,
 				DD542A86242A2A70005E562E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,7 +385,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD542A83242A2A70005E562E /* ViewController.swift in Sources */,
+				DD41AA31242B5CDC00BDE797 /* HeaderTableViewCell.swift in Sources */,
+				DD41AA2C242B5C5500BDE797 /* HomeView.swift in Sources */,
 				DD542A7F242A2A70005E562E /* AppDelegate.swift in Sources */,
+				DD41AA39242B60F700BDE797 /* XibView.swift in Sources */,
+				DD41AA3C242B628A00BDE797 /* CounterTableViewCell.swift in Sources */,
 				DD542A81242A2A70005E562E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
