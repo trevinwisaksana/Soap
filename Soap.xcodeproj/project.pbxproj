@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD41AA09242B53F600BDE797 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD41AA07242B53F600BDE797 /* Interface.storyboard */; };
+		DD41AA0B242B53F700BDE797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD41AA0A242B53F700BDE797 /* Assets.xcassets */; };
+		DD41AA12242B53F800BDE797 /* Soap WatchKit App Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DD41AA11242B53F800BDE797 /* Soap WatchKit App Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD41AA17242B53F800BDE797 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41AA16242B53F800BDE797 /* InterfaceController.swift */; };
+		DD41AA19242B53F800BDE797 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41AA18242B53F800BDE797 /* ExtensionDelegate.swift */; };
+		DD41AA1B242B53F800BDE797 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41AA1A242B53F800BDE797 /* NotificationController.swift */; };
+		DD41AA1D242B53F800BDE797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD41AA1C242B53F800BDE797 /* Assets.xcassets */; };
+		DD41AA22242B53F800BDE797 /* Soap WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DD41AA05242B53F600BDE797 /* Soap WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DD542A7F242A2A70005E562E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD542A7E242A2A70005E562E /* AppDelegate.swift */; };
 		DD542A81242A2A70005E562E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD542A80242A2A70005E562E /* SceneDelegate.swift */; };
 		DD542A83242A2A70005E562E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD542A82242A2A70005E562E /* ViewController.swift */; };
@@ -15,7 +23,60 @@
 		DD542A8B242A2A71005E562E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD542A89242A2A71005E562E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DD41AA13242B53F800BDE797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD542A73242A2A70005E562E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD41AA10242B53F800BDE797;
+			remoteInfo = "Soap WatchKit App Extension";
+		};
+		DD41AA20242B53F800BDE797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD542A73242A2A70005E562E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD41AA04242B53F600BDE797;
+			remoteInfo = "Soap WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD41AA23242B53F900BDE797 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DD41AA22242B53F800BDE797 /* Soap WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD41AA26242B53F900BDE797 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DD41AA12242B53F800BDE797 /* Soap WatchKit App Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DD41AA05242B53F600BDE797 /* Soap WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soap WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD41AA08242B53F600BDE797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DD41AA0A242B53F700BDE797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD41AA0C242B53F700BDE797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD41AA11242B53F800BDE797 /* Soap WatchKit App Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Soap WatchKit App Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD41AA16242B53F800BDE797 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DD41AA18242B53F800BDE797 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DD41AA1A242B53F800BDE797 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DD41AA1C242B53F800BDE797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD41AA1E242B53F800BDE797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD41AA1F242B53F800BDE797 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		DD542A7B242A2A70005E562E /* Soap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD542A7E242A2A70005E562E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD542A80242A2A70005E562E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +88,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DD41AA0E242B53F800BDE797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DD542A78242A2A70005E562E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +105,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD41AA06242B53F600BDE797 /* Soap WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DD41AA07242B53F600BDE797 /* Interface.storyboard */,
+				DD41AA0A242B53F700BDE797 /* Assets.xcassets */,
+				DD41AA0C242B53F700BDE797 /* Info.plist */,
+			);
+			path = "Soap WatchKit App";
+			sourceTree = "<group>";
+		};
+		DD41AA15242B53F800BDE797 /* Soap WatchKit App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DD41AA16242B53F800BDE797 /* InterfaceController.swift */,
+				DD41AA18242B53F800BDE797 /* ExtensionDelegate.swift */,
+				DD41AA1A242B53F800BDE797 /* NotificationController.swift */,
+				DD41AA1C242B53F800BDE797 /* Assets.xcassets */,
+				DD41AA1E242B53F800BDE797 /* Info.plist */,
+				DD41AA1F242B53F800BDE797 /* PushNotificationPayload.apns */,
+			);
+			path = "Soap WatchKit App Extension";
+			sourceTree = "<group>";
+		};
 		DD542A72242A2A70005E562E = {
 			isa = PBXGroup;
 			children = (
 				DD542A7D242A2A70005E562E /* Soap */,
+				DD41AA06242B53F600BDE797 /* Soap WatchKit App */,
+				DD41AA15242B53F800BDE797 /* Soap WatchKit App Extension */,
 				DD542A7C242A2A70005E562E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				DD542A7B242A2A70005E562E /* Soap.app */,
+				DD41AA05242B53F600BDE797 /* Soap WatchKit App.app */,
+				DD41AA11242B53F800BDE797 /* Soap WatchKit App Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +165,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DD41AA04242B53F600BDE797 /* Soap WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD41AA2A242B53F900BDE797 /* Build configuration list for PBXNativeTarget "Soap WatchKit App" */;
+			buildPhases = (
+				DD41AA03242B53F600BDE797 /* Resources */,
+				DD41AA26242B53F900BDE797 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD41AA14242B53F800BDE797 /* PBXTargetDependency */,
+			);
+			name = "Soap WatchKit App";
+			productName = "Soap WatchKit App";
+			productReference = DD41AA05242B53F600BDE797 /* Soap WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DD41AA10242B53F800BDE797 /* Soap WatchKit App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD41AA29242B53F900BDE797 /* Build configuration list for PBXNativeTarget "Soap WatchKit App Extension" */;
+			buildPhases = (
+				DD41AA0D242B53F800BDE797 /* Sources */,
+				DD41AA0E242B53F800BDE797 /* Frameworks */,
+				DD41AA0F242B53F800BDE797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soap WatchKit App Extension";
+			productName = "Soap WatchKit App Extension";
+			productReference = DD41AA11242B53F800BDE797 /* Soap WatchKit App Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		DD542A7A242A2A70005E562E /* Soap */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD542A8F242A2A71005E562E /* Build configuration list for PBXNativeTarget "Soap" */;
@@ -77,10 +206,12 @@
 				DD542A77242A2A70005E562E /* Sources */,
 				DD542A78242A2A70005E562E /* Frameworks */,
 				DD542A79242A2A70005E562E /* Resources */,
+				DD41AA23242B53F900BDE797 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DD41AA21242B53F800BDE797 /* PBXTargetDependency */,
 			);
 			name = Soap;
 			productName = Soap;
@@ -97,6 +228,12 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Trevin Wisaksana";
 				TargetAttributes = {
+					DD41AA04242B53F600BDE797 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DD41AA10242B53F800BDE797 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					DD542A7A242A2A70005E562E = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -116,11 +253,30 @@
 			projectRoot = "";
 			targets = (
 				DD542A7A242A2A70005E562E /* Soap */,
+				DD41AA04242B53F600BDE797 /* Soap WatchKit App */,
+				DD41AA10242B53F800BDE797 /* Soap WatchKit App Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DD41AA03242B53F600BDE797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD41AA0B242B53F700BDE797 /* Assets.xcassets in Resources */,
+				DD41AA09242B53F600BDE797 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD41AA0F242B53F800BDE797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD41AA1D242B53F800BDE797 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DD542A79242A2A70005E562E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,6 +290,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DD41AA0D242B53F800BDE797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD41AA1B242B53F800BDE797 /* NotificationController.swift in Sources */,
+				DD41AA19242B53F800BDE797 /* ExtensionDelegate.swift in Sources */,
+				DD41AA17242B53F800BDE797 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DD542A77242A2A70005E562E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,7 +312,28 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		DD41AA14242B53F800BDE797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD41AA10242B53F800BDE797 /* Soap WatchKit App Extension */;
+			targetProxy = DD41AA13242B53F800BDE797 /* PBXContainerItemProxy */;
+		};
+		DD41AA21242B53F800BDE797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD41AA04242B53F600BDE797 /* Soap WatchKit App */;
+			targetProxy = DD41AA20242B53F800BDE797 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		DD41AA07242B53F600BDE797 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD41AA08242B53F600BDE797 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		DD542A84242A2A70005E562E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -166,6 +353,88 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DD41AA24242B53F900BDE797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ASHUNREKRL;
+				IBSC_MODULE = Soap_WatchKit_App_Extension;
+				INFOPLIST_FILE = "Soap WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stockbit.Soap.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		DD41AA25242B53F900BDE797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ASHUNREKRL;
+				IBSC_MODULE = Soap_WatchKit_App_Extension;
+				INFOPLIST_FILE = "Soap WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stockbit.Soap.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		DD41AA27242B53F900BDE797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ASHUNREKRL;
+				INFOPLIST_FILE = "Soap WatchKit App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stockbit.Soap.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		DD41AA28242B53F900BDE797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ASHUNREKRL;
+				INFOPLIST_FILE = "Soap WatchKit App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stockbit.Soap.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
 		DD542A8D242A2A71005E562E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -319,6 +588,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DD41AA29242B53F900BDE797 /* Build configuration list for PBXNativeTarget "Soap WatchKit App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD41AA27242B53F900BDE797 /* Debug */,
+				DD41AA28242B53F900BDE797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD41AA2A242B53F900BDE797 /* Build configuration list for PBXNativeTarget "Soap WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD41AA24242B53F900BDE797 /* Debug */,
+				DD41AA25242B53F900BDE797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DD542A76242A2A70005E562E /* Build configuration list for PBXProject "Soap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
