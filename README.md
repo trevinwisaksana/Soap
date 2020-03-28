@@ -15,6 +15,8 @@ I identified this problem by observing my parent's denial over the lethality of 
 
 #### Describe your approach. How did you come up with it? Is it the best possible solution? Why?
 
+The initial idea I had was to simply create an app that helps me remind myself to wash my hands. Then a graph would should how often I’ve done it each day. However, the finicky part would be to remember to log this data every time I wash my hands
+
 #### Describe your previous skillset. Did you learn anything new in the past three weeks? 
 
 I have been an iOS Developer for over two years but I have never made an app for the Apple Watch nor train a machine learning model. But in the past three weeks I did just that; I was able to get an Apple Watch to recognize when I am washing my hands.
