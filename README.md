@@ -15,7 +15,9 @@ I identified this problem by observing my parent's denial over the lethality of 
 
 #### Describe your approach. How did you come up with it? Is it the best possible solution? Why?
 
-The initial idea I had was to simply create an app that helps me remind myself to wash my hands. Then a graph would should how often I’ve done it each day. However, the finicky part would be to remember to log this data every time I wash my hands
+Before I began ideating, I made three requirements that the solution should have. It should be easy to use, influential towards create a habit to wash our hands and attainable within three weeks. My initial idea was to simply create an app that helps remind me to wash my hands. But this would not differentiate itself from a reminders app. 
+
+Then a graph would should how often I’ve done it each day. However, the finicky part would be to remember to log this data every time I wash my hands
 
 #### Describe your previous skillset. Did you learn anything new in the past three weeks? 
 
