@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="MX8-QF-FRN">
     <device id="watch38"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
-        <scene sceneID="aou-V4-d1y">
-            <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Soap_WatchKit_App" customModuleProvider="target">
-                    <items>
-                        <label alignment="left" text="Label" id="Ij7-af-wa4"/>
-                    </items>
-                </controller>
-            </objects>
-            <point key="canvasLocation" x="220" y="345"/>
-        </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
             <objects>
@@ -28,7 +17,6 @@
                     <connections>
                         <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
                         <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
-                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
                     </connections>
                 </notificationController>
             </objects>
@@ -41,12 +29,56 @@
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
-        <!--Notification Controller-->
-        <scene sceneID="Niz-AI-uX2">
+        <!--Interface Controller-->
+        <scene sceneID="MoT-bR-tTM">
             <objects>
-                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="Soap_WatchKit_App" customModuleProvider="target"/>
+                <controller id="MX8-QF-FRN" customClass="InterfaceController" customModule="Soap_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label height="16" alignment="left" text="Not Recording" textAlignment="center" id="tgf-wS-oPQ" userLabel="TitleLabel">
+                            <color key="textColor" red="1" green="0.0" blue="0.029831843470000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                        <label width="136" alignment="left" text="Gravity" id="uGY-tx-NhG" userLabel="Gravity Label"/>
+                        <label alignment="left" text="0" id="Ess-OS-hR0" userLabel="GravityValue">
+                            <color key="textColor" red="0.085898444059999995" green="0.95968544479999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
+                        <label alignment="left" text="User Acceleration" id="Nac-wR-e14" userLabel="UALabel"/>
+                        <label alignment="left" text="0" id="Ue1-xU-3nC" userLabel="UAValue">
+                            <color key="textColor" red="0.085898444059999995" green="0.95968544479999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
+                        <label alignment="left" text="Rotation" id="8TL-bc-jY3" userLabel="RotationLabel"/>
+                        <label alignment="left" text="0" id="8pP-Ug-jFM" userLabel="RotationValue">
+                            <color key="textColor" red="0.085898444059999995" green="0.95968544479999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
+                        <label alignment="left" text="Altitude" id="uSa-4Z-xEw" userLabel="AltitudeLabel"/>
+                        <label alignment="left" text="0" id="fRK-gP-XVT" userLabel="AltitudeValue">
+                            <color key="textColor" red="0.085898444059999995" green="0.95968544479999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
+                    </items>
+                    <menu key="menu" id="fEH-1g-hQb">
+                        <items>
+                            <menuItem title="Start Workout" icon="accept" id="aft-gk-lSj">
+                                <connections>
+                                    <action selector="start" destination="MX8-QF-FRN" id="nqO-Jp-Jyz"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Stop Workout" icon="decline" id="KdV-h2-31L">
+                                <connections>
+                                    <action selector="stop" destination="MX8-QF-FRN" id="9A2-AM-wZM"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="attitudeLabel" destination="fRK-gP-XVT" id="p0o-WZ-OZ5"/>
+                        <outlet property="gravityLabel" destination="Ess-OS-hR0" id="M5C-fW-fkr"/>
+                        <outlet property="rotationLabel" destination="8pP-Ug-jFM" id="Xgo-jk-qXF"/>
+                        <outlet property="titleLabel" destination="tgf-wS-oPQ" id="nBZ-Er-bX7"/>
+                        <outlet property="userAccelLabel" destination="Ue1-xU-3nC" id="5zr-Fx-5Kq"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="468" y="345"/>
+            <point key="canvasLocation" x="220" y="309"/>
         </scene>
     </scenes>
 </document>

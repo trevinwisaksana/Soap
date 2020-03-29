@@ -91,6 +91,7 @@
 		DD41AA38242B60F700BDE797 /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 		DD41AA3B242B628A00BDE797 /* CounterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterTableViewCell.swift; sourceTree = "<group>"; };
 		DD41AA3E242B629600BDE797 /* CounterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CounterTableViewCell.xib; sourceTree = "<group>"; };
+		DD41AA40242B676100BDE797 /* Soap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Soap.entitlements; sourceTree = "<group>"; };
 		DD542A7B242A2A70005E562E /* Soap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD542A7E242A2A70005E562E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD542A80242A2A70005E562E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -226,6 +227,7 @@
 		DD542A7D242A2A70005E562E /* Soap */ = {
 			isa = PBXGroup;
 			children = (
+				DD41AA40242B676100BDE797 /* Soap.entitlements */,
 				DD542A7E242A2A70005E562E /* AppDelegate.swift */,
 				DD542A80242A2A70005E562E /* SceneDelegate.swift */,
 				DD41AA36242B5FA000BDE797 /* Controller */,
@@ -637,6 +639,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Soap/Soap.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ASHUNREKRL;
 				INFOPLIST_FILE = Soap/Info.plist;
@@ -646,6 +650,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stockbit.Soap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -655,6 +660,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Soap/Soap.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ASHUNREKRL;
 				INFOPLIST_FILE = Soap/Info.plist;
