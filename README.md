@@ -1,6 +1,10 @@
 # Soap
 ### A smart reminders app that can detect when you wash your hands using the Apple Watch
 
+<p align="center">
+  <img src="https://github.com/trevinwisaksana/Livenote/blob/master/Screenshots/livenoteBanner.jpg">
+</p>
+
 In the light of the current pandemic, washing your hands could be a matter of life and death. Soap helps remind you to wash your hands frequently. You can also keep track of how often you've washed your hands just by wearing the Apple Watch. It is a seamless way to that do something that could save your life.
 
 #### Why did you pick this particular organization, institution or individual?
