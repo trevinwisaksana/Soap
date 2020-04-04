@@ -1,4 +1,6 @@
-# Soap
+<p align="left">
+  <img src="https://github.com/trevinwisaksana/Soap/blob/master/Assets/title.jpg" width="150">
+</p>
 
 <p align="center">
   <img src="https://github.com/trevinwisaksana/Soap/blob/master/Assets/banner.jpg">
