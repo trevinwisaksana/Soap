@@ -33,6 +33,8 @@
 		DD75367224382B0600C7BE28 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD75367124382B0600C7BE28 /* MotionManager.swift */; };
 		DD75367524382B4100C7BE28 /* HandWashing.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DD75367424382B4100C7BE28 /* HandWashing.mlmodel */; };
 		DD7536792438434400C7BE28 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7536782438434400C7BE28 /* NotificationManager.swift */; };
+		DD75367B243888A800C7BE28 /* HandWashCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD75367A243888A800C7BE28 /* HandWashCounter.swift */; };
+		DD75367E2438891800C7BE28 /* UserDefaultsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD75367D2438891800C7BE28 /* UserDefaultsKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +111,8 @@
 		DD75367124382B0600C7BE28 /* MotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 		DD75367424382B4100C7BE28 /* HandWashing.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandWashing.mlmodel; sourceTree = "<group>"; };
 		DD7536782438434400C7BE28 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		DD75367A243888A800C7BE28 /* HandWashCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandWashCounter.swift; sourceTree = "<group>"; };
+		DD75367D2438891800C7BE28 /* UserDefaultsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,9 +149,11 @@
 				DD41AA16242B53F800BDE797 /* InterfaceController.swift */,
 				DD41AA18242B53F800BDE797 /* ExtensionDelegate.swift */,
 				DD7536772438433700C7BE28 /* Notification */,
+				DD75367C243888AE00C7BE28 /* HandWashCounter */,
 				DD75367324382B1C00C7BE28 /* MotionManager */,
 				DD75367624382B4500C7BE28 /* MachineLearningModel */,
 				DD75366F2438278500C7BE28 /* Resources */,
+				DD75367F2438891D00C7BE28 /* Helper */,
 				DD41AA1E242B53F800BDE797 /* Info.plist */,
 				DD41AA1F242B53F800BDE797 /* PushNotificationPayload.apns */,
 			);
@@ -284,6 +290,22 @@
 				DD7536782438434400C7BE28 /* NotificationManager.swift */,
 			);
 			path = Notification;
+			sourceTree = "<group>";
+		};
+		DD75367C243888AE00C7BE28 /* HandWashCounter */ = {
+			isa = PBXGroup;
+			children = (
+				DD75367A243888A800C7BE28 /* HandWashCounter.swift */,
+			);
+			path = HandWashCounter;
+			sourceTree = "<group>";
+		};
+		DD75367F2438891D00C7BE28 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DD75367D2438891800C7BE28 /* UserDefaultsKey.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,8 +449,10 @@
 				DD41AA1B242B53F800BDE797 /* NotificationController.swift in Sources */,
 				DD75367524382B4100C7BE28 /* HandWashing.mlmodel in Sources */,
 				DD41AA19242B53F800BDE797 /* ExtensionDelegate.swift in Sources */,
+				DD75367E2438891800C7BE28 /* UserDefaultsKey.swift in Sources */,
 				DD41AA17242B53F800BDE797 /* InterfaceController.swift in Sources */,
 				DD75367224382B0600C7BE28 /* MotionManager.swift in Sources */,
+				DD75367B243888A800C7BE28 /* HandWashCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

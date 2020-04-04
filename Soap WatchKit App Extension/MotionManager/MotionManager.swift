@@ -23,7 +23,7 @@ import UserNotifications
  These contexts can be used to enable application specific behavior.
  */
 protocol MotionManagerDelegate: class {
-    func didUpdateMotion(_ manager: MotionManager, gravityStr: String, rotationRateStr: String, userAccelStr: String, attitudeStr: String)
+    func didUpdateCounter(_ manager: MotionManager)
 }
 
 final class MotionManager {
@@ -144,13 +144,13 @@ final class MotionManager {
         if countdownTimer == .zero {
             NotificationManager.shared.pushNotification()
             
-            updateMetricsDelegate()
+            updateHandWashingCounter()
         }
     }
     
     // MARK: Data and Delegate Management
     
-    private func updateMetricsDelegate() {
-        
+    private func updateHandWashingCounter() {
+        delegate?.didUpdateCounter(self)
     }
 }

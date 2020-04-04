@@ -12,16 +12,27 @@ import UserNotifications
 
 class InterfaceController: WKInterfaceController {
     
+    // MARK: - IBOutlet
+    
+    @IBOutlet weak var countLabel: WKInterfaceLabel!
+    
     // MARK: - Properties
     
     private let motionManager = MotionManager()
+    private let handWashCounter = HandWashCounter()
     
     // MARK: - Overrides
 
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
+        motionManager.delegate = self
         motionManager.startUpdates()
+        
+        /// This will resent the hand washing count when needed
+        handWashCounter.resetCountIfNeeded()
+        
+        countLabel.setText("\(handWashCounter.currentCount())")
         
         UNUserNotificationCenter.current().delegate = self
     }
@@ -36,6 +47,16 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+}
+
+// MARK: - MotionManagerDelegate
+
+extension InterfaceController: MotionManagerDelegate {
+    func didUpdateCounter(_ manager: MotionManager) {
+        handWashCounter.increment()
+        
+        countLabel.setText("\(handWashCounter.currentCount())")
+    }
 }
 
 // MARK: - UNUserNotificationCenterDelegate

@@ -44,13 +44,16 @@
                                 <label width="136" alignment="center" verticalAlignment="center" text="0" textAlignment="center" id="AWJ-Ts-jQk">
                                     <fontDescription key="font" name="ProximaNova-Regular" family="Proxima Nova" pointSize="60"/>
                                 </label>
-                                <label width="136" alignment="center" verticalAlignment="center" text="times today" textAlignment="center" id="Lkm-Kd-wqV">
+                                <label width="136" alignment="center" verticalAlignment="center" text="today" textAlignment="center" id="Lkm-Kd-wqV">
                                     <fontDescription key="font" name="ProximaNova-Regular" family="Proxima Nova" pointSize="17"/>
                                 </label>
                             </items>
                         </group>
                     </items>
                     <menu key="menu" id="fEH-1g-hQb"/>
+                    <connections>
+                        <outlet property="countLabel" destination="AWJ-Ts-jQk" id="cpv-fg-pa3"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="309"/>
