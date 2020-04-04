@@ -12,9 +12,9 @@
   Keep track of when you wash your hands with the Apple Watch.
 </h3>
 
-<p align="center">
+<h4 align="center">
   In the light of the current pandemic, washing your hands could be a matter of life and death. Soap helps remind you to wash your hands frequently and more. It keeps track of how often you've washed your hands just by wearing the Apple Watch.
-<p/>
+<h4/>
 
 <br/>
 
