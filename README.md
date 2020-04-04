@@ -5,7 +5,7 @@
 </p>
 
 <h2 align="center">
-  A smart reminders app that can detect when you wash your hands using the Apple Watch
+  Keep track of when you wash your hands on the Apple Watch.
 </h2>
 
 <br/>
