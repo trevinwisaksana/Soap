@@ -28,6 +28,11 @@
 		DD542A86242A2A70005E562E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD542A84242A2A70005E562E /* Main.storyboard */; };
 		DD542A88242A2A71005E562E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD542A87242A2A71005E562E /* Assets.xcassets */; };
 		DD542A8B242A2A71005E562E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD542A89242A2A71005E562E /* LaunchScreen.storyboard */; };
+		DD75366E2438278000C7BE28 /* proximanova-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD75366D2438278000C7BE28 /* proximanova-regular.ttf */; };
+		DD753670243827F900C7BE28 /* proximanova-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD75366D2438278000C7BE28 /* proximanova-regular.ttf */; };
+		DD75367224382B0600C7BE28 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD75367124382B0600C7BE28 /* MotionManager.swift */; };
+		DD75367524382B4100C7BE28 /* HandWashing.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DD75367424382B4100C7BE28 /* HandWashing.mlmodel */; };
+		DD7536792438434400C7BE28 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7536782438434400C7BE28 /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +105,10 @@
 		DD542A87242A2A71005E562E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD542A8A242A2A71005E562E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD542A8C242A2A71005E562E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD75366D2438278000C7BE28 /* proximanova-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-regular.ttf"; sourceTree = "<group>"; };
+		DD75367124382B0600C7BE28 /* MotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		DD75367424382B4100C7BE28 /* HandWashing.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandWashing.mlmodel; sourceTree = "<group>"; };
+		DD7536782438434400C7BE28 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +144,10 @@
 			children = (
 				DD41AA16242B53F800BDE797 /* InterfaceController.swift */,
 				DD41AA18242B53F800BDE797 /* ExtensionDelegate.swift */,
-				DD41AA1A242B53F800BDE797 /* NotificationController.swift */,
-				DD41AA1C242B53F800BDE797 /* Assets.xcassets */,
+				DD7536772438433700C7BE28 /* Notification */,
+				DD75367324382B1C00C7BE28 /* MotionManager */,
+				DD75367624382B4500C7BE28 /* MachineLearningModel */,
+				DD75366F2438278500C7BE28 /* Resources */,
 				DD41AA1E242B53F800BDE797 /* Info.plist */,
 				DD41AA1F242B53F800BDE797 /* PushNotificationPayload.apns */,
 			);
@@ -239,6 +250,40 @@
 				DD542A8C242A2A71005E562E /* Info.plist */,
 			);
 			path = Soap;
+			sourceTree = "<group>";
+		};
+		DD75366F2438278500C7BE28 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD75366D2438278000C7BE28 /* proximanova-regular.ttf */,
+				DD41AA1C242B53F800BDE797 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DD75367324382B1C00C7BE28 /* MotionManager */ = {
+			isa = PBXGroup;
+			children = (
+				DD75367124382B0600C7BE28 /* MotionManager.swift */,
+			);
+			path = MotionManager;
+			sourceTree = "<group>";
+		};
+		DD75367624382B4500C7BE28 /* MachineLearningModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD75367424382B4100C7BE28 /* HandWashing.mlmodel */,
+			);
+			path = MachineLearningModel;
+			sourceTree = "<group>";
+		};
+		DD7536772438433700C7BE28 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				DD41AA1A242B53F800BDE797 /* NotificationController.swift */,
+				DD7536782438434400C7BE28 /* NotificationManager.swift */,
+			);
+			path = Notification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD41AA0B242B53F700BDE797 /* Assets.xcassets in Resources */,
+				DD753670243827F900C7BE28 /* proximanova-regular.ttf in Resources */,
 				DD41AA09242B53F600BDE797 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD75366E2438278000C7BE28 /* proximanova-regular.ttf in Resources */,
 				DD41AA1D242B53F800BDE797 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,9 +423,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7536792438434400C7BE28 /* NotificationManager.swift in Sources */,
 				DD41AA1B242B53F800BDE797 /* NotificationController.swift in Sources */,
+				DD75367524382B4100C7BE28 /* HandWashing.mlmodel in Sources */,
 				DD41AA19242B53F800BDE797 /* ExtensionDelegate.swift in Sources */,
 				DD41AA17242B53F800BDE797 /* InterfaceController.swift in Sources */,
+				DD75367224382B0600C7BE28 /* MotionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

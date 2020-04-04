@@ -8,14 +8,22 @@
 
 import WatchKit
 import Foundation
-
+import UserNotifications
 
 class InterfaceController: WKInterfaceController {
+    
+    // MARK: - Properties
+    
+    private let motionManager = MotionManager()
+    
+    // MARK: - Overrides
 
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        // Configure interface objects here.
+        motionManager.startUpdates()
+        
+        UNUserNotificationCenter.current().delegate = self
     }
     
     override func willActivate() {
@@ -28,4 +36,12 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+}
+
+// MARK: - UNUserNotificationCenterDelegate
+
+extension InterfaceController: UNUserNotificationCenterDelegate {
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        
+    }
 }
