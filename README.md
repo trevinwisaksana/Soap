@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://github.com/trevinwisaksana/Soap/blob/master/Assets/title.jpg" width="150">
+  <img src="https://github.com/trevinwisaksana/Soap/blob/master/Assets/title.jpg" width="180">
 </p>
 
 <p align="center">
