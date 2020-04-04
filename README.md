@@ -14,7 +14,9 @@
 
 <br/>
 
-In the light of the current pandemic, washing your hands could be a matter of life and death. The Soap app helps remind you to wash your hands frequently and more. You can also keep track of how often you've washed your hands just by wearing the Apple Watch. That's right! Using machine learning, your Apple Watch will be able to detect when you are washing your hands. That way you can get notified in a smart way. It is a seamless way to that do something that could save your life.
+<p align="center">
+  In the light of the current pandemic, washing your hands could be a matter of life and death. The Soap app helps remind you     to wash your hands frequently and more. You also can keep track of how often you've washed your hands just by wearing the Apple Watch.
+<p/>
 
 #### Why did you pick this particular organization, institution or individual?
 
