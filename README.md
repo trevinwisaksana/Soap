@@ -18,6 +18,8 @@
 
 <br/>
 
+## Background
+
 #### Why did you pick this particular organization, institution or individual?
 
 Although the Soap app can be used by anyone with an Apple Watch, I am dedicating this app to help my parents because they seem to underestimate this pandemic. The goal is to get my parents to create a habit of washing their hands frequently.
