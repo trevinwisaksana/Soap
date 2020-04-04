@@ -15,7 +15,7 @@
 <br/>
 
 <p align="center">
-  In the light of the current pandemic, washing your hands could be a matter of life and death. The Soap app helps remind you     to wash your hands frequently and more. You also can keep track of how often you've washed your hands just by wearing the Apple Watch.
+  In the light of the current pandemic, washing your hands could be a matter of life and death. Soap helps remind you to wash your hands frequently and more. You can also keep track of how often you've washed your hands just by wearing the Apple Watch.
 <p/>
 
 #### Why did you pick this particular organization, institution or individual?
