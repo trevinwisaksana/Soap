@@ -4,9 +4,9 @@
   <img src="https://github.com/trevinwisaksana/Soap/blob/master/Assets/banner.jpg">
 </p>
 
-<h2 align="center">
+<h3 align="center">
   Keep track of when you wash your hands with the Apple Watch.
-</h2>
+</h3>
 
 <br/>
 
