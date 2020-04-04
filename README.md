@@ -5,7 +5,7 @@
 </p>
 
 <h2 align="center">
-  Keep track of when you wash your hands on the Apple Watch.
+  Keep track of when you wash your hands with the Apple Watch.
 </h2>
 
 <br/>
