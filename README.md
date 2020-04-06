@@ -9,7 +9,7 @@
 </p>
 
 <h3 align="center">
-  Keep track of when you wash your hands with the Apple Watch.
+  Get smart reminders to wash your hands.
 </h3>
 
 <p align="center">
