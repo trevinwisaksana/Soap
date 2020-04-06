@@ -34,11 +34,11 @@ Before I began ideating, I made three requirements. The solution should be easy 
 
 But then I noticed that both my parents own an Apple Watch. So I looked at the possiblity of using it to make a smart way to remind them to wash their hands. This was when I came up with the idea to detect a hand washing motion using the Apple Watch. The goal is to remind someone who has not washed their hands for sometime and if they have done it, make them feel rewarded. This solution can be used seamlessly day-to-day as it requires no manual user interaction and it's on the right track to be influential towards creating a habit of getting people to wash their hands.
 
-But after using it myself for a week, the pros and cons became apparent. Although it can be used seamlessly on a daily basis, its accuracy to detect a hand washing gesture still needs to be improved. Its reliance on the Apple Watch also limits the number of people that can use it. But overall, it did help remind my parents to wash their hands and it remains to be one of the most user-friendly way for Apple Watch users to create a habit of doing so.
+But after using it myself for a week, the pros and cons became apparent. Although it can be used seamlessly on a daily basis, its accuracy to detect a hand washing gesture still needs to be improved. Its reliance on the Apple Watch also limits the number of people that can use it. But overall, it remains to be one of the most user-friendly way for Apple Watch users to create a habit of washing their hands.
 
 
 #### Describe your previous skillset. Did you learn anything new in the past three weeks? 
 
-I have been an iOS Developer for over two years but I have never made an app for the Apple Watch nor trained a machine learning model. But in the past three weeks I did just that; I was able to get an Apple Watch to recognize when I am washing my hands. To do this, I had to learn how to properly collect sensor data from the Apple Watch, process it to train a machine learning model and implement it on the watch. Although my machine learning model only has about 90% accuracy, I am very satisfied to know that I am capable of making this and that this concept has actually helped people.
+I have been an iOS Developer for over two years but I have never made an app for the Apple Watch nor trained a machine learning model. But in the past three weeks I did just that; I was able to get an Apple Watch to recognize when I am washing my hands. To do this, I had to learn how to properly collect sensor data from the Apple Watch, process it to train a machine learning model and implement it on the watch. Although my machine learning model only has about 90% accuracy, I am very satisfied to know that I am capable of making this.
 
 <br/>
