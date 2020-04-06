@@ -13,7 +13,7 @@
 </h3>
 
 <p align="center">
-  In the light of the current pandemic, washing your hands could be a matter of life and death. Soap helps remind you to wash your hands frequently. Using machine learning it can keep track of when you have washed your hands and give you smart reminders.
+  In the light of the current pandemic, washing your hands could be a matter of life and death. Soap helps remind you to do this. Using machine learning it can keep track of when you have washed your hands and give you smart reminders.
 <p/>
 
 <br/>
