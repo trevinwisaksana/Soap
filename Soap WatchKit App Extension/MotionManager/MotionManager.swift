@@ -44,7 +44,7 @@ final class MotionManager {
     private var isWashingHands = false
     
     /// Timer is used a debouncer since the accuracy of the machine learning model is only 90%
-    private var countdownTimer = 5
+    private var countdownTimer = 3
     private var timer: Timer?
     
     // MARK: Initialization
@@ -52,6 +52,7 @@ final class MotionManager {
     init() {
         // Serial queue for sample handling and calculations.
         queue.maxConcurrentOperationCount = 1
+        queue.qualityOfService = .userInteractive
         queue.name = "MotionManagerQueue"
     }
     

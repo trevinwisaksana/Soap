@@ -29,17 +29,17 @@ class InterfaceController: WKInterfaceController {
         motionManager.delegate = self
         motionManager.startUpdates()
         
-        /// This will resent the hand washing count when needed
-        handWashCounter.resetCountIfNeeded()
-        
-        countLabel.setText("\(handWashCounter.currentCount())")
-        
         UNUserNotificationCenter.current().delegate = self
     }
     
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        
+        /// This will resent the hand washing count when needed
+        handWashCounter.resetCountIfNeeded()
+        
+        countLabel.setText("\(handWashCounter.currentCount())")
     }
     
     override func didDeactivate() {
