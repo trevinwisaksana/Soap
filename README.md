@@ -30,7 +30,7 @@ I identified this problem by observing my parent's denial over the lethality of 
 
 #### Describe your approach. How did you come up with it? Is it the best possible solution? Why?
 
-Before I began ideating, I made three requirements. The solution should be easy to use, influential towards creating a habit of washing our hands and attainable within three weeks. My initial idea was to simply create an app that helps remind me to wash my hands. But this would not differentiate itself from a reminders app.
+One of the most effective ways to reduce the chances of being infected is to frequently wash our hands. So I began exploring how to make this become a habit. Before I began ideating, I made three requirements. The solution should be easy to use, influential towards creating a habit of washing our hands and attainable within three weeks. My initial idea was to simply create an app that helps remind me to wash my hands. But this would not differentiate itself from a reminders app.
 
 But then I noticed that both my parents own an Apple Watch. So I looked at the possiblity of using it to make a smart way to remind them to wash their hands. This was when I came up with the idea to detect a hand washing motion using the Apple Watch. The goal is to remind someone who has not washed their hands for sometime and if they have done it, make them feel rewarded. This solution can be used seamlessly day-to-day as it requires no manual user interaction and it's on the right track to be influential towards creating a habit of getting people to wash their hands.
 
