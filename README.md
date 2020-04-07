@@ -18,6 +18,16 @@
 
 <br/>
 
+<h3 align="center">
+  Here's a demo of it in action.
+</h3>
+
+<div align="center">
+  <a href="https://youtu.be/WJU9lbqQhGQg"><img src="https://img.youtube.com/vi/WJU9lbqQhGQ/0.jpg" alt="Demo"></a>
+</div>
+
+<br/>
+
 ## Background
 
 #### Why did you pick this particular organization, institution or individual?
