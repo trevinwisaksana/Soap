@@ -19,7 +19,7 @@
 <br/>
 
 <h3 align="center">
-  Here's a demo of how it works.
+  Here's a demo of it in action.
 </h3>
 
 <div align="center">
