@@ -19,12 +19,8 @@
 <br/>
 
 <h3 align="center">
-  It detects when you wash your hands.
+  Here's a demo of how it works.
 </h3>
-
-<p align="center">
-  Soap uses machine learning to detect when the motion of the user's hand indicates that this person is washing their hands. Here's a demo of how it works.
-<p/>
 
 <div align="center">
   <a href="https://youtu.be/WJU9lbqQhGQg"><img src="https://img.youtube.com/vi/WJU9lbqQhGQ/0.jpg" alt="Demo"></a>
