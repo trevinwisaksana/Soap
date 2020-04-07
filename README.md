@@ -16,6 +16,10 @@
   In the light of the current pandemic, washing your hands could be a matter of life and death. Soap helps remind you to do this. Using machine learning it can keep track of when you have washed your hands and give you smart reminders.
 <p/>
 
+<div align="center">
+  <a href="https://youtu.be/WJU9lbqQhGQg"><img src="https://img.youtube.com/vi/WJU9lbqQhGQ/0.jpg" alt="Demo"></a>
+</div>
+
 <br/>
 
 ## Background
