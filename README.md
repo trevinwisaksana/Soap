@@ -23,7 +23,7 @@
 </h3>
 
 <p align="center">
-  Soap uses machine learning to detect when the motion of the user's hand indicates that this person is washing their hands. Here's a demo of it working.
+  Soap uses machine learning to detect when the motion of the user's hand indicates that this person is washing their hands. Here's a demo of how it works.
 <p/>
 
 <div align="center">
