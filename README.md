@@ -32,7 +32,7 @@
 
 #### Why did you pick this particular organization, institution or individual?
 
-Although the Soap app can be used by anyone with an Apple Watch, I am dedicating this app to help my parents because they seem to underestimate this pandemic. The goal is to get my parents to create a habit of washing their hands frequently. But from a design thinking point of view, I chose them because I can contact them frequently to validate/invalidate my assumptions. Under social distancing conditions today, it is impossible to go around town to get user interviews.
+Although the Soap app can be used by anyone with an Apple Watch, I am dedicating this app to help my parents because they seem to underestimate this pandemic. The goal is to get my parents to create a habit of washing their hands frequently. But from a design thinking point of view, I chose them because I can contact them frequently to validate/invalidate my assumptions. Under social distancing conditions today, it is impossible to go around town to do user interviews.
 
 #### How did you identify the problem to solve and why did you pick this problem over others?
 
