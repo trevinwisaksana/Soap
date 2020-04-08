@@ -53,4 +53,4 @@ I have been an iOS Developer for over two years but I have never made an app for
 
 <br/>
 
-<em> Note: Soap is currently still under development. It is still unstable under a production environment. I recommend that the app should be run using a debugger to remove any limitations set by the WatchOS such as throttling background tasks. <em/>
+<em> Note: Soap is currently still under development. It is still unstable under a production environment. I recommend that this versio of the app should be run using a debugger to remove any limitations set by the WatchOS such as throttling background tasks. <em/>
