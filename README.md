@@ -52,3 +52,5 @@ But after using it myself for a week, the pros and cons became apparent. Althoug
 I have been an iOS Developer for over two years but I have never made an app for the Apple Watch nor trained a machine learning model. But in the past three weeks I did just that; I was able to get an Apple Watch to recognize when I am washing my hands. To do this, I had to learn how to properly collect sensor data from the Apple Watch, process it to train a machine learning model and implement it on the watch. Although my machine learning model only has about 90% accuracy, I am very satisfied to know that I am capable of making this.
 
 <br/>
+
+<em> Note: Soap is currently still under development. It is still unstable under production environments. I recommend that the app should be run using a debugger to remove any limitations set by the WatchOS such as throttling background tasks. <em/>
